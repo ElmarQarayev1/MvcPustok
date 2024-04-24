@@ -1,17 +1,20 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace MvcPustok.Models
 {
-	public class BookImages
+	public class BookImages:BaseEntity
 	{
-		public int Id { get; set; }
-
+		
 		public int BookId { get; set; }
 
-		public string Name { get; set; }
+        [Required]
+        [MaxLength(250)]
+        public string Name { get; set; }
 
-		public bool PosterStatus { get; set; }
+		public bool? Status { get; set; }
 
-		public Books Books { get; set; }
+		public Book? Book { get; set; }
 	}
 }
 

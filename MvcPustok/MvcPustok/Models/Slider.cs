@@ -1,7 +1,7 @@
 ﻿using System;
 namespace MvcPustok.Models
 {
-	public class Sliders
+	public class Slider
 	{
 		public int Id { get; set; }
 

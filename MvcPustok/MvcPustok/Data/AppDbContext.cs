@@ -10,21 +10,22 @@ namespace MvcPustok.Data
 		{
 
 		}
-		public DbSet<Authors> Authors { get; set; }
+		public DbSet<Author> Authors { get; set; }
 
 		public DbSet<BookImages> BookImages { get; set; }
 
-		public DbSet<Books> Books { get; set; }
+		public DbSet<Book> Books { get; set; }
 
 		public DbSet<BookTags> BookTags { get; set; }
 
-		public DbSet<Genres> Genres { get; set; }
+		public DbSet<Genre> Genres { get; set; }
 
-		public DbSet<Sliders> Sliders { get; set; }
+		public DbSet<Slider> Sliders { get; set; }
 
-		public DbSet<Tags> Tags { get; set; }
+		public DbSet<Tag> Tags { get; set; }
+
+		public DbSet<Feature> Features { get; set; }
 			
-	}
-
+	} 
 }
 

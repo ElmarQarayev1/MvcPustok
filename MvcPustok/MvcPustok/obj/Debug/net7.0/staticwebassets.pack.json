@@ -409,6 +409,10 @@
       "PackagePath": "staticwebassets/js/custom.js"
     },
     {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustok/MvcPustok/MvcPustok/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
       "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustok/MvcPustok/MvcPustok/wwwroot/js/plugins.js",
       "PackagePath": "staticwebassets/js/plugins.js"
     },

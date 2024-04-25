@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p4GIB3kdvSKcG+Icy1h5tG7VzSaRWuPnNbnovQ3rL4o=",
+  "Hash": "8DmOvycVAuHEOvV11UeR6t+TLLbST3iyXmBpFauUMm4=",
   "Source": "MvcPustok",
   "BasePath": "_content/MvcPustok",
   "Mode": "Default",
@@ -1766,6 +1766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/custom.js"
+    },
+    {
+      "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustok/MvcPustok/MvcPustok/wwwroot/js/main.js",
+      "SourceId": "MvcPustok",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustok/MvcPustok/MvcPustok/wwwroot/",
+      "BasePath": "_content/MvcPustok",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/main.js"
     },
     {
       "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustok/MvcPustok/MvcPustok/wwwroot/js/plugins.js",

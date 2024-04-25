@@ -25,6 +25,8 @@ namespace MvcPustok.Data
 		public DbSet<Tag> Tags { get; set; }
 
 		public DbSet<Feature> Features { get; set; }
+
+		public DbSet<Setting> Settings { get; set; }
 			
 	} 
 }

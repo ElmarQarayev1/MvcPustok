@@ -13,7 +13,7 @@ namespace MvcPustok.Controllers
 		{
 			_context = context;
 		}
-		public IActionResult GetBookId(int id)
+		public IActionResult GetBookById(int id)
 		{
 			Book book = _context.Books.Include(x => x.Genre).Include(x => x.BookImages.Where(x => x.Status == true)).FirstOrDefault(x => x.Id == id);
 			return PartialView("_BookModalPartial",book);
